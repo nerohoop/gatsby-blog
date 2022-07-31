@@ -3,7 +3,7 @@ title: "Hello world 2 "
 description: Test 2
 datePublished: 2022-07-31T19:17:49.560Z
 dateModified: 2022-07-31T19:17:49.570Z
-cover: assets/1259718.png
+cover: images/1259718.png
 coverAlt: Test
 slug: hello-world-2
 category: test

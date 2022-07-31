@@ -3,15 +3,15 @@ backend:
   branch: main # Branch to update
   repo: nerohoop/gatsby-blog # Repo for pushing new commits. Make sure to replace with your repo!
 
-media_folder: static/assets
-public_folder: assets
+media_folder: themes/advanced/content/images
+public_folder: images
 
 collections:
   - name: blog
     label: "Post"
-    folder: "content"
+    folder: "themes/advanced/content"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}.md"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "string" }
