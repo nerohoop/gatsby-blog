@@ -1,6 +1,6 @@
 backend:
-  name: git-gateway # Refer to https://www.netlifycms.org/docs/authentication-backends/ for auth backend list and instructions
-  branch: master # Branch to update
+  name: github # Refer to https://www.netlifycms.org/docs/authentication-backends/ for auth backend list and instructions
+  branch: main # Branch to update
   repo: nerohoop/gatsby-blog # Repo for pushing new commits. Make sure to replace with your repo!
 
 media_folder: static/assets
