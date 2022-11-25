@@ -3,7 +3,7 @@ title: iOS Testing Part 1 - Unit Test
 description: iOS Unit Testing Introduction
 datePublished: 2022-11-25T12:22:28.436Z
 dateModified: 2022-11-25T12:22:28.448Z
-cover: https://images.unsplash.com/photo-1587620931276-d97f425f62b9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2531&q=80
+cover: images/1162250.jpg
 coverAlt: cover
 slug: ios-testing-part-1-unit-test
 category: iOS
@@ -21,27 +21,15 @@ Writing Unit tests can also help better structure your code. It makes you become
 
 They can also serve as the most updated documentation of your codebase. When working on big projects, it's hard to keep the documentation up to date, people are pushing new code on daily basis. Even worse when people switching teams or leave the company and context are lost. Unit tests can represent the current behavior of your codebase, give you an overview of how things should be working. 
 
-> * Well tested code is easier to refactor or to add new functionality
-> * They help you understand the current stability of your app
-> * Unit test are trustworthy documentation of your codebase
-> * If forces you to be the first consumer of your API and move faster
+In Summary, writing Unit test can help you:
+ - **Well tested code is easier to refactor or to add new functionality**
+ - **They help you understand the current stability of your app**
+ - **Unit test are trustworthy documentation of your codebase**
+ - **If forces you to be the first consumer of your API and move faster**
 
 ## What is Unit Testing 🔨?
 
-W﻿hen building the app, compiler protects our codebase from syntax and build errors. Similarly well writting unit tests protect our codebase from logic errors. Here's an example of a simple Unit test. 
-
-```swift
-func test() {
-  // given
-  let price = sut.currentPrice + 5
-
-  // when
-  sut.setPrice(price)
-
-  // then
-  XCTAssertEqual(sut.price, 100, "Price doesn't match")
-}
-```
+W﻿hen building the app, compiler protects our codebase from syntax and build errors. Similarly well written unit tests protect our codebase from logic errors. 
 
 ## **Unit Test Basic Concepts**
 
