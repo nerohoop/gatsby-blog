@@ -12139,9 +12139,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-netlify-cms@npm:^6.17.0":
-  version: 6.19.0
-  resolution: "gatsby-plugin-netlify-cms@npm:6.19.0"
+"gatsby-plugin-netlify-cms@npm:^7.2.0":
+  version: 7.2.0
+  resolution: "gatsby-plugin-netlify-cms@npm:7.2.0"
   dependencies:
     "@babel/runtime": ^7.15.4
     "@soda/friendly-errors-webpack-plugin": 1.8.1
@@ -12153,12 +12153,12 @@ __metadata:
     mini-css-extract-plugin: 1.6.2
     netlify-identity-widget: ^1.9.2
   peerDependencies:
-    gatsby: ^4.0.0-next
+    gatsby: ^5.0.0-next
     netlify-cms-app: ^2.9.0
-    react: ^16.9.0 || ^17.0.0 || ^18.0.0
-    react-dom: ^16.9.0 || ^17.0.0 || ^18.0.0
+    react: ^18.0.0 || ^0.0.0
+    react-dom: ^18.0.0 || ^0.0.0
     webpack: ^5.0.0
-  checksum: 99eeaf040018e9a6db45fc6586a201d2bb03b0601c858fa8f37c1ab75ce365655d4cb899fff44fc9051db35be3b9ee3f2ca5a987aaae6240988c21870733dfae
+  checksum: cab5009d981c7b8a0c9bf0e8cad498006d15c0ce7f9376d4b8781ef122ae1d7857764ddc34a27fcafb46f50cf76f12df4f726127a6c3eb06e86ae391e6c71137
   languageName: node
   linkType: hard
 
@@ -12706,7 +12706,7 @@ __metadata:
     gatsby-plugin-lodash: ^5.17.0
     gatsby-plugin-manifest: ^4.17.0
     gatsby-plugin-mdx: ^3.17.0
-    gatsby-plugin-netlify-cms: ^6.17.0
+    gatsby-plugin-netlify-cms: ^7.2.0
     gatsby-plugin-nprogress: ^4.17.0
     gatsby-plugin-offline: ^5.17.0
     gatsby-plugin-page-creator: ^4.17.0
@@ -12889,7 +12889,7 @@ __metadata:
     gatsby-plugin-lodash: ^5.17.0
     gatsby-plugin-manifest: ^4.17.0
     gatsby-plugin-mdx: ^3.17.0
-    gatsby-plugin-netlify-cms: ^6.17.0
+    gatsby-plugin-netlify-cms: ^7.2.0
     gatsby-plugin-nprogress: ^4.17.0
     gatsby-plugin-offline: ^5.17.0
     gatsby-plugin-page-creator: ^4.17.0
