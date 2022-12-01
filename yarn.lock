@@ -3447,12 +3447,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mdx-js/react@npm:^1.6.22":
-  version: 1.6.22
-  resolution: "@mdx-js/react@npm:1.6.22"
+"@mdx-js/react@npm:^2.1.5":
+  version: 2.1.5
+  resolution: "@mdx-js/react@npm:2.1.5"
+  dependencies:
+    "@types/mdx": ^2.0.0
+    "@types/react": ">=16"
   peerDependencies:
-    react: ^16.13.1 || ^17.0.0
-  checksum: bc84bd514bc127f898819a0c6f1a6915d9541011bd8aefa1fcc1c9bea8939f31051409e546bdec92babfa5b56092a16d05ef6d318304ac029299df5181dc94c8
+    react: ">=16"
+  checksum: e47fb7086a4dd3e4d75d9ef0bf530009f72437a5ea91048e65d2e2f53955015a8c81b5058ac56fa00f401843305518e9f298183645d56c7e34336df4cc0b62bf
   languageName: node
   linkType: hard
 
@@ -4748,6 +4751,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/mdx@npm:^2.0.0":
+  version: 2.0.3
+  resolution: "@types/mdx@npm:2.0.3"
+  checksum: 41deb51c29535913af01d25f0e1414cfb5a6948d0e60e77e4aca895694de48bf0ac69c5a81fe2d9617d726cb253001ef82a65b683d5ef51987d15aa1931d086b
+  languageName: node
+  linkType: hard
+
 "@types/minimatch@npm:*":
   version: 3.0.5
   resolution: "@types/minimatch@npm:3.0.5"
@@ -4921,6 +4931,17 @@ __metadata:
     "@types/scheduler": "*"
     csstype: ^3.0.2
   checksum: e22cc388d1c145aa184787e44dc28db4789976c704cd5db475c170bb76a560eb81def5f346cfe750949bb3d43ad88822b8cbb9f19b1286e3795892a8263e7715
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:>=16":
+  version: 18.0.25
+  resolution: "@types/react@npm:18.0.25"
+  dependencies:
+    "@types/prop-types": "*"
+    "@types/scheduler": "*"
+    csstype: ^3.0.2
+  checksum: 231d658c45abdef044a716b4502774f1585d8336d73b2f5bd68f181acbfc874b7a457686ecd29b415b43ed0922c309bab7e2cf96832d188a3f4f1b02f2af760a
   languageName: node
   linkType: hard
 
@@ -12656,7 +12677,7 @@ __metadata:
     "@babel/preset-typescript": ^7.17.12
     "@fec/remark-a11y-emoji": ^3.1.0
     "@mdx-js/mdx": ^1.6.22
-    "@mdx-js/react": ^1.6.22
+    "@mdx-js/react": ^2.1.5
     "@stylelint/postcss-css-in-js": ^0.38.0
     "@testing-library/dom": ^8.14.0
     "@testing-library/jest-dom": ^5.16.4
@@ -12840,7 +12861,7 @@ __metadata:
     "@babel/preset-typescript": ^7.17.12
     "@fec/remark-a11y-emoji": ^3.1.0
     "@mdx-js/mdx": ^1.6.22
-    "@mdx-js/react": ^1.6.22
+    "@mdx-js/react": ^2.1.5
     "@styled-icons/boxicons-logos": ^10.38.0
     "@styled-icons/boxicons-regular": ^10.38.0
     "@styled-icons/styled-icon": ^10.6.3
